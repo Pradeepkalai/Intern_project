@@ -51,7 +51,7 @@ nltk.download('stopwords')
 
 ### Overview
 
-This project demonstrates how to extract text from PDF documents, split the content into manageable chunks, and generate vector embeddings using **Hugging Face Sentence Transformers**. These embeddings enable intelligent document understanding and form the foundation of modern AI applications such as **Semantic Search**, **RAG (Retrieval-Augmented Generation)**, and **Question Answering Systems**.
+This project demonstrates how to extract text from PDF documents, split the content into manageable chunks, and generate vector embeddings using **Hugging Face Sentence Transformers**. These embeddings enable intelligent document understanding.
 
 ### Features
 
@@ -71,7 +71,7 @@ This project demonstrates how to extract text from PDF documents, split the cont
 | langchain-text-splitters | Splits large text into smaller chunks |
 | sentence-transformers | Generates text embeddings |
 | transformers | Provides Hugging Face transformer models |
-| torch | Backend for deep learning and model execution |
+
 
 ### Technologies Used
 
@@ -82,7 +82,7 @@ This project demonstrates how to extract text from PDF documents, split the cont
 | LangChain | Document Processing Framework |
 | Hugging Face | Embedding Models |
 | Sentence Transformers | Text Embedding Generation |
-| PyTorch | Deep Learning Backend |
+
 
 
 ### Installation
@@ -96,7 +96,6 @@ pip install langchain-community
 pip install langchain-text-splitters
 pip install sentence-transformers
 pip install transformers
-pip install torch
 ```
 
 
