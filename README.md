@@ -5,7 +5,7 @@
 ## Day 1: Text Normalization, Tokenization & Stopword Removal using NLTK
 
 
-## Overview
+### Overview
 
 This project demonstrates fundamental **Natural Language Processing (NLP)** preprocessing techniques using **Python** and **NLTK**.
 
@@ -16,7 +16,7 @@ This project demonstrates fundamental **Natural Language Processing (NLP)** prep
 - **Stopword Removal** – Removes common English stopwords to retain meaningful words.
 
 
-## Technologies Used
+### Technologies Used
 
 | Technology | Purpose |
 |------------|----------|
@@ -24,7 +24,7 @@ This project demonstrates fundamental **Natural Language Processing (NLP)** prep
 | NLTK | Natural Language Processing Library |
 
 
-## Installation
+### Installation
 
 Install NLTK using the following command:
 
@@ -33,7 +33,7 @@ pip install nltk
 ```
 
 
-## Required NLTK Resources
+### Required NLTK Resources
 
 The following resources are downloaded automatically when the program runs:
 
@@ -49,7 +49,7 @@ nltk.download('stopwords')
 ## Day 2: Building a Document Embedding Pipeline with PyPDF2, LangChain & Hugging Face
 
 
-##  Overview
+### Overview
 
 This project demonstrates how to extract text from PDF documents, split the content into manageable chunks, and generate vector embeddings using **Hugging Face Sentence Transformers**. These embeddings enable intelligent document understanding and form the foundation of modern AI applications such as **Semantic Search**, **RAG (Retrieval-Augmented Generation)**, and **Question Answering Systems**.
 
@@ -61,7 +61,7 @@ This project demonstrates how to extract text from PDF documents, split the cont
 - **Embedding Generation** – Converts text chunks into vector embeddings.
 - **Embedding Analysis** – Displays the shape and structure of generated embeddings.
 
-## Required Libraries
+### Required Libraries
 
 | Library | Purpose |
 |----------|----------|
@@ -73,7 +73,7 @@ This project demonstrates how to extract text from PDF documents, split the cont
 | transformers | Provides Hugging Face transformer models |
 | torch | Backend for deep learning and model execution |
 
-## Technologies Used
+### Technologies Used
 
 | Technology | Purpose |
 |------------|----------|
@@ -85,7 +85,7 @@ This project demonstrates how to extract text from PDF documents, split the cont
 | PyTorch | Deep Learning Backend |
 
 
-## Installation
+### Installation
 
 Install the required libraries using the following commands:
 
@@ -100,7 +100,7 @@ pip install torch
 ```
 
 
-## Embedding Model Used
+### Embedding Model Used
 
 ```text
 thuan9889/llama_embedding_model_v1
