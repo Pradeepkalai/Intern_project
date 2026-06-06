@@ -1,8 +1,9 @@
 # Intern Project
 
+---
+
 ## Day 1: Text Normalization, Tokenization & Stopword Removal using NLTK
 
----
 
 ## Overview
 
@@ -14,7 +15,6 @@ This project demonstrates fundamental **Natural Language Processing (NLP)** prep
 - **Tokenization** – Splits text into individual words.
 - **Stopword Removal** – Removes common English stopwords to retain meaningful words.
 
----
 
 ## Technologies Used
 
@@ -23,7 +23,6 @@ This project demonstrates fundamental **Natural Language Processing (NLP)** prep
 | Python 3.x | Programming Language |
 | NLTK | Natural Language Processing Library |
 
----
 
 ## Installation
 
@@ -33,7 +32,6 @@ Install NLTK using the following command:
 pip install nltk
 ```
 
----
 
 ## Required NLTK Resources
 
