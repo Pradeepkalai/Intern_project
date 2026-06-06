@@ -1,72 +1,155 @@
-# Intern_project
-Day 1: Text Normalization, Tokenization, and Stopword Removal using NLTK
+# 🚀 Intern Project
 
-Overview:
+## 📅 Day 1: Text Normalization, Tokenization & Stopword Removal using NLTK
 
-This project demonstrates fundamental *Natural Language Processing (NLP)* preprocessing techniques using Python and the Natural Language Toolkit (NLTK).
+---
 
-The program focuses on three core operations:
+## 📖 Overview
 
-* Text Normalization: Converts text to lowercase to maintain uniformity.
-* 
-* Tokenization: Splits text strings into individual words or tokens.
-* 
-* Stopword Removal: Filters out common English words to retain only the meaningful vocabulary.
+This project demonstrates fundamental **Natural Language Processing (NLP)** preprocessing techniques using **Python** and **NLTK**.
 
-Technologies Used:
-*Python 3.x
+### ✅ Features
 
-*NLTK (Natural Language Toolkit)
+- **Text Normalization** – Converts text to lowercase.
+- **Tokenization** – Splits text into individual words.
+- **Stopword Removal** – Removes common English stopwords to retain meaningful words.
 
-*Required Libraries
+---
 
-Install NLTK using:
+## 🛠️ Technologies Used
 
+| Technology | Purpose |
+|------------|----------|
+| Python 3.x | Programming Language |
+| NLTK | Natural Language Processing Library |
+
+---
+
+## 📦 Installation
+
+Install NLTK using the following command:
+
+```bash
 pip install nltk
+```
 
-Download Required NLTK Resources
+---
 
-The following datasets are downloaded automatically when the program runs:
+## 📥 Required NLTK Resources
 
+The following resources are downloaded automatically when the program runs:
+
+```python
 nltk.download('punkt')
-
 nltk.download('punkt_tab')
-
 nltk.download('stopwords')
+```
 
-How the Program Works:
-Step 1: Input Text
+---
 
-User enters a paragraph.
+## ⚙️ Working Process
 
-Step 2: Text Normalization
+### 🔹 Step 1: Input Text
 
-Converts all characters to lowercase.
+The user enters a paragraph or sentence.
 
-Example:
+**Example:**
 
-Hello World
+```text
+Hello World! This is an NLP Project.
+```
 
-becomes
+---
 
+### 🔹 Step 2: Text Normalization
+
+All characters are converted to lowercase.
+
+**Before:**
+
+```text
+Hello World! This is an NLP Project.
+```
+
+**After:**
+
+```text
+hello world! this is an nlp project.
+```
+
+---
+
+### 🔹 Step 3: Tokenization
+
+The normalized text is split into individual words.
+
+**Input:**
+
+```text
 hello world
+```
 
-Step 3: Tokenization
+**Output:**
 
-Splits text into individual words.
-
-Example:
-
-hello world
-
-becomes
-
+```python
 ['hello', 'world']
+```
 
-Step 4: Stopword Removal
+---
 
-Removes common English words such as:
+### 🔹 Step 4: Stopword Removal
 
-is, am, are, the, and, of, in
+Common English words such as:
 
-Resulting in meaningful words only.
+```text
+is, am, are, the, and, of, in, on, for, to
+```
+
+are removed from the tokenized list.
+
+**Example:**
+
+```python
+['this', 'is', 'an', 'nlp', 'project']
+```
+
+⬇️
+
+```python
+['nlp', 'project']
+```
+
+---
+
+## 🎯 Output
+
+The program displays:
+
+- ✅ Original Text
+- ✅ Normalized Text
+- ✅ Tokenized Words
+- ✅ Filtered Words After Stopword Removal
+
+---
+
+## 📚 Learning Outcomes
+
+After completing this project, you will understand:
+
+- Text preprocessing in NLP
+- Text normalization techniques
+- Word tokenization using NLTK
+- Stopword removal methods
+- Basic NLP workflow using Python
+
+---
+
+## 🌟 Project Summary
+
+This project serves as a beginner-friendly introduction to **Natural Language Processing (NLP)** using **Python** and **NLTK**. It demonstrates how raw text can be cleaned and prepared for further NLP tasks through normalization, tokenization, and stopword removal.
+
+---
+
+### 👨‍💻 Developed as Part of Internship Training
+
+**Day 1 – NLP Text Preprocessing using NLTK**
