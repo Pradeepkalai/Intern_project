@@ -1,17 +1,17 @@
 # Intern_project
-#Day 1:
-Text Normalization, Tokenization and Stopword Removal using NLTK
+Day 1: Text Normalization, Tokenization, and Stopword Removal using NLTK
+
 Overview:
 
-This project demonstrates basic Natural Language Processing (NLP) preprocessing techniques using Python and NLTK.
+This project demonstrates fundamental *Natural Language Processing (NLP)* preprocessing techniques using Python and the Natural Language Toolkit (NLTK).
 
-The program performs:
+The program focuses on three core operations:
 
-*Text Normalization (Converts text to lowercase)
-
-*Tokenization (Splits text into words)
-
-*Stopword Removal (Removes common English words)
+* Text Normalization: Converts text to lowercase to maintain uniformity.
+* 
+* Tokenization: Splits text strings into individual words or tokens.
+* 
+* Stopword Removal: Filters out common English words to retain only the meaningful vocabulary.
 
 Technologies Used:
 *Python 3.x
